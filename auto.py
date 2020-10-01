@@ -42,7 +42,7 @@ time.sleep(4)
 clone = driver.find_element_by_xpath('/html/body/div[4]/div/main/div[2]/div/div[2]/div[1]/div[2]/span/get-repo/details/summary')
 clone.click()
 
-copy = driver.find_element_by_xpath('/html/body/div[4]/div/main/div[2]/div/div[2]/div[1]/div[2]/span/get-repo/details/div/div/div[1]/div/div[1]/div/div/clipboard-copy')
+copy = driver.find_element_by_xpath('/html/body/div[4]/div/main/div[2]/div/div[2]/div[1]/div[2]/span/get-repo/details/div/div/div[1]/div/tab-container/div[2]/div/div/clipboard-copy')
 copy.click()
 
 git_url = clipboard.paste()
