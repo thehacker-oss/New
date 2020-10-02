@@ -53,5 +53,6 @@ os.system('git add .')
 os.system('git commit -m "Initial commit"')
 os.system('git remote add origin '+git_url)
 os.system('git push -f origin master')
+os.system('code .')
 
 print('\n Task Completed...')
